@@ -1,0 +1,11 @@
+.About-Container {
+  background-color: #2a2326;
+  margin-top: 0;
+  padding: 10px 0;
+}
+
+.about-paragraph {
+    padding: 45px 30px;
+    color: white;
+    margin: auto;
+  }

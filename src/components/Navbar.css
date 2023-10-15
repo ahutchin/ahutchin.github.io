@@ -1,0 +1,46 @@
+.player-info {
+  height: 70px;
+  background-color: #2d1f25;
+  display: flex;
+}
+
+.player-info-text {
+  color: white;
+  display: inline;
+  display: flex;
+  align-items: center;
+}
+
+.profile-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  margin: auto 10px auto 40px;
+  display: inline;
+  
+}
+
+.tabs {
+  background-color: #3d2932;
+  list-style-type: none;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 3px 0px 3px 35px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+}
+
+a {
+  color: #c98b8c;
+  text-decoration: none;
+}

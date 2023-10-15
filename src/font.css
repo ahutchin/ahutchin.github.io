@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "toruspro-regular";
+  src: url("./fonts/Demo_Fonts/Fontspring-DEMO-toruspro-regular.otf");
+}
+
+@font-face {
+  font-family: "toruspro-bold";
+  src: url("./fonts/Demo_Fonts/Fontspring-DEMO-toruspro-bold.otf");
+}
+
+@font-face {
+  font-family: "toruspro-light";
+  src: url("./fonts/Demo_Fonts/Fontspring-DEMO-toruspro-light.otf");
+}
