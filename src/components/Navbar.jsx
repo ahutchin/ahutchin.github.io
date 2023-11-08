@@ -1,5 +1,4 @@
 import React from "react";
-import "./Navbar.css";
 import playerIcon from "../assets/playerIcon.svg";
 
 const Navbar = () => {
@@ -9,16 +8,22 @@ const Navbar = () => {
         <img src={playerIcon} alt="profile" className="profile-img" />
         <p className="player-info-text">Info</p>
       </div>
-      <div className="tabs">
-        <ul>
+      <div className="link-div">
+        <ul className="page-links">
           <li>
-            <a href="#">Home</a>
+            <a href="#" className="link">
+              Home
+            </a>
           </li>
           <li>
-            <a href="#">Experience</a>
+            <a href="#" className="link">
+              Experience
+            </a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#" className="link">
+              About
+            </a>
           </li>
         </ul>
       </div>
