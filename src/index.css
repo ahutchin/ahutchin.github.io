@@ -15,6 +15,14 @@ p {
   margin: 0;
 }
 
+.section-title {
+  color: white;
+  margin: 10px 75px;
+  color: #9f859e;
+  text-decoration: underline;
+  font-size: 15px;
+}
+
 /* App */
 
 body {
@@ -28,7 +36,8 @@ body {
   width: 80%;
   margin: auto;
   min-width: 750px;
-  /* background-color: white; */
+  padding-bottom: 10px;
+  background-color: #2a2326;
 }
 
 /* Navbar */
@@ -93,7 +102,7 @@ body {
   object-fit: cover;
   filter: blur(8px);
   -webkit-filter: blur(8px);
-  z-index: -1;
+  z-index: 1;
 }
 
 .intro-block {
@@ -102,6 +111,7 @@ body {
   display: flex;
   flex-direction: row;
   padding-left: 40px;
+  z-index: 10;
 }
 
 .profile-pic {
@@ -122,4 +132,112 @@ body {
 
 .name {
   font-size: 40px;
+}
+
+/* Experience */
+
+.experience-container {
+  height: 90%;
+  width: 90%;
+  color: white;
+  margin: 0 auto 20px auto;
+  padding: 20px;
+  background-color: #392e32;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.text-container {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+  border-radius: 20px;
+  margin: auto 0;
+}
+
+.experience-title {
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+}
+
+.experience-company {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  color: #9f859e;
+}
+
+.experience-achievements {
+  margin: 10px 0;
+}
+
+/* AboutMe */
+
+.about-me-container {
+  height: 90%;
+  width: 90%;
+  color: white;
+  margin: 0 auto 20px auto;
+  padding: 20px;
+  background-color: #392e32;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me-sentences {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  /* width: 60%; */
+}
+
+.bullet-point {
+  margin: 0 15px;
+}
+
+/* Contact */
+
+.contact-container {
+  height: 90%;
+  width: 90%;
+  color: white;
+  margin: 0 auto 20px auto;
+  padding: 20px;
+  background-color: #392e32;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.contact-img:hover {
+  scale: 1.2;
+}
+
+.contact-text {
+  font-size: 50px;
+  padding: 40px;
+}
+
+.contact-link-box {
+  margin: auto 0 auto auto;
+  display: flex;
+}
+
+.contact-link {
+  margin: auto 10px;
 }
