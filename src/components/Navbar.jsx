@@ -1,4 +1,5 @@
 import React from "react";
+import { useRef } from "react";
 import playerIcon from "../assets/playerIcon.svg";
 
 const Navbar = () => {
