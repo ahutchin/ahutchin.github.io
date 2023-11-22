@@ -1,4 +1,5 @@
 import React from "react";
+import Manaphy from "../assets/manaphy.webp";
 
 const AboutMe = () => {
   const Sentences = [
@@ -12,12 +13,15 @@ const AboutMe = () => {
     <>
       <h1 className="section-title">About Me</h1>
       <div className="about-me-container">
-        {Sentences.map((Sentences) => (
-          <div className="about-me-sentences" key={Sentences.id}>
-            <p className="bullet-point">◉</p>
-            <p>{Sentences.sentence}</p>
-          </div>
-        ))}
+        <div className="about-me-text">
+          {Sentences.map((Sentences) => (
+            <div className="about-me-sentences" key={Sentences.id}>
+              <p className="bullet-point">◉</p>
+              <p>{Sentences.sentence}</p>
+            </div>
+          ))}
+        </div>
+        <img src={Manaphy} alt="Picture of the pokemong Manaphy" className="about-me-image" />
       </div>
     </>
   );

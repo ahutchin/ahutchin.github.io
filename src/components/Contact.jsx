@@ -6,7 +6,7 @@ import Github from "../assets/github.png";
 const Contact = () => {
   return (
     <div className="contact">
-      <p className="section-title">Contact me</p>
+      <h1 className="section-title">Contact me</h1>
       <div className="contact-container">
         <p className="contact-text">See something you like? Lets chat</p>
         <div className="contact-link-box">
