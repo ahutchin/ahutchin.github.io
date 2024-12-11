@@ -24,6 +24,10 @@ main {
   color: var(--primary-text-color);
 }
 
+.page-body {
+  margin-top: 5rem;
+  margin-left: 3rem;
+}
 /* NAVBAR */
 
 .navbar {
@@ -78,8 +82,6 @@ main {
 
 /* EXPERIENCE PAGE */
 .experience-page {
-  margin-top: 5rem;
-  margin-left: 3rem;
 }
 
 .experience-page .experiences {
@@ -123,7 +125,7 @@ main {
 .dropdown .content {
   overflow: hidden;
   max-height: 0;
-  transition: max-height 0.5s ease, padding-top 0.5s ease;
+  transition: max-height 1s ease, padding-top 1s ease;
 }
 
 .dropdown .content.expanded {

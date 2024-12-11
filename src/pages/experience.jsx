@@ -46,7 +46,7 @@ const Experience = () => {
   ];
 
   return (
-    <div className="experience-page">
+    <div className="experience-page page-body">
       <h1>Experience</h1>
       <p>This is the experience page.</p>
       <div className="experiences">
