@@ -3,8 +3,10 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div>
-      <h1>Welcome to the Home Page</h1>
+    <div className="home-page">
+      <h1 className="home-name">Alexander Hutchinson</h1>
+      <p className="home-body">Systems Design Engineeirng Student, University of Waterloo</p>
+      <p className="home-body">Software Developer</p>
     </div>
   );
 };
