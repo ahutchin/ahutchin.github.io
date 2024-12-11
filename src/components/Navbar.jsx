@@ -1,22 +1,22 @@
 import React from "react";
-import { useRef } from "react";
-import playerIcon from "../assets/playerIcon.svg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="navigation-bar">
-      <div className="player-info">
-        <img src={playerIcon} alt="profile" className="profile-img" />
-        <p className="player-info-text">Info</p>
-      </div>
-      <div className="link-div">
-        <ul className="page-links">
-          <li className="link">Home</li>
-          <li className="link">Experience</li>
-          <li className="link">About</li>
-        </ul>
-      </div>
-    </nav>
+    <>
+      <Link to="/">
+        <button>Home</button>
+      </Link>
+      <Link to="/experience">
+        <button>Experience</button>
+      </Link>
+      <Link to="/projects">
+        <button>Project</button>
+      </Link>
+      <Link to="/about">
+        <button>About</button>
+      </Link>
+    </>
   );
 };
 
