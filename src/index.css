@@ -2,11 +2,13 @@
 :root {
   --primary-color: white;
   --primary-text-color: black;
+  --primary-border-color: rgba(0, 0, 0, 0.7);
 }
 
 body.dark-mode {
   --primary-color: #333;
   --primary-text-color: white;
+  --primary-border-color: rgba(255, 255, 255, 0.5);
 }
 
 html,
@@ -72,4 +74,64 @@ main {
 }
 
 .home-body {
+}
+
+/* EXPERIENCE PAGE */
+.experience-page {
+  margin-top: 5rem;
+  margin-left: 3rem;
+}
+
+.experience-page .experiences {
+  margin-top: 3rem;
+}
+
+/* DROPDOWN COMPONENT */
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--primary-border-color);
+  border-radius: 2px;
+  margin: 1rem 3rem;
+  padding: 10px;
+  width: 70%;
+  /* background-color: var(--secondary-color); */
+  color: var(--primary-text-color);
+}
+
+.dropdown .dropdown-header {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  border-bottom: 1px solid var(--primary-border-color);
+}
+
+.dropdown .dropdown-title {
+  font-weight: bold;
+}
+
+.dropdown .dropdown-button {
+}
+
+.dropdown .dropdown-description {
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.dropdown .content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease, padding-top 0.5s ease;
+}
+
+.dropdown .content.expanded {
+  max-height: 500px; /* Adjust this value based on your content's maximum height */
+  padding-top: 10px;
+}
+
+.dropdown .content.collapsed {
+  max-height: 0;
+  padding-top: 0;
 }
