@@ -3,20 +3,27 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <>
-      <Link to="/">
-        <button>Home</button>
-      </Link>
-      <Link to="/experience">
-        <button>Experience</button>
-      </Link>
-      <Link to="/projects">
-        <button>Project</button>
-      </Link>
-      <Link to="/about">
-        <button>About</button>
-      </Link>
-    </>
+    <div className="navbar">
+      <div className="color-theme">
+        <p>Dark/Light Mode</p>
+      </div>
+      <div className="navbar-links">
+        <ul className="page-links">
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/experience">Experience</Link>
+          </li>
+          <li>
+            <Link to="/projects">Projects</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+        </ul>
+      </div>
+    </div>
   );
 };
 

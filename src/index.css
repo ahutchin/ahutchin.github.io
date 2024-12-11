@@ -10,6 +10,36 @@ main {
   height: 100vh;
 }
 
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.color-theme {
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.navbar .navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .page-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .page-links li {
+  text-decoration: none;
+  padding: 0 10px;
+}
+
 /* HOME PAGE */
 .home-page {
   position: relative;
