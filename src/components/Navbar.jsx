@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  const toggleTheme = () => {
+    setIsDarkMode(!isDarkMode);
+    document.body.classList.toggle("dark-mode", !isDarkMode);
+  };
+
   return (
     <div className="navbar">
       <div className="color-theme">
-        <p>Dark/Light Mode</p>
+        <p onClick={toggleTheme}>{isDarkMode ? "Light Mode" : "Dark Mode"}</p>
       </div>
       <div className="navbar-links">
         <ul className="page-links">

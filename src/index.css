@@ -1,4 +1,14 @@
 /* Root */
+:root {
+  --primary-color: white;
+  --primary-text-color: black;
+}
+
+body.dark-mode {
+  --primary-color: #333;
+  --primary-text-color: white;
+}
+
 html,
 body {
   font-family: "Courier New", Courier, monospace;
@@ -8,6 +18,8 @@ body {
 body,
 main {
   height: 100vh;
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
 }
 
 /* NAVBAR */
@@ -16,9 +28,12 @@ main {
   display: flex;
   padding: 1rem;
   justify-content: space-between;
+  background-color: var(--primary-color);
 }
 
 .color-theme {
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
   padding: 0 10px;
   cursor: pointer;
 }
@@ -35,7 +50,10 @@ main {
   padding: 0;
 }
 
-.navbar .page-links li {
+.navbar .page-links li a {
+  /* Need to select 'a' tag because of Link router tag */
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
   text-decoration: none;
   padding: 0 10px;
 }
