@@ -2,7 +2,7 @@
 
 /* All */
 
-ul {
+/* ul {
   padding: 0;
   margin: 0;
 }
@@ -22,11 +22,11 @@ p {
   text-decoration: underline;
   font-size: 15px;
   text-decoration: none;
-}
+} */
 
 /* App */
 
-body {
+/* body {
   background-color: #1c1719;
   font-family: toruspro-regular;
   margin: 0;
@@ -39,11 +39,11 @@ body {
   min-width: 750px;
   padding-bottom: 10px;
   background-color: #2a2326;
-}
+} */
 
 /* Navbar */
 
-.navigation-bar {
+/* .navigation-bar {
   display: flex;
   flex-direction: column;
   position: -webkit-sticky; 
@@ -92,11 +92,11 @@ body {
   margin: 0 10px;
   color: #d096a5;
   cursor: pointer;
-}
+} */
 
 /* Introduction */
 
-.main {
+/* .main {
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -137,11 +137,11 @@ body {
 
 .name {
   font-size: 40px;
-}
+} */
 
 /* Experience */
 
-.experience-container {
+/* .experience-container {
   height: 90%;
   width: 90%;
   color: white;
@@ -182,11 +182,11 @@ body {
 
 .experience-achievements {
   margin: 10px 0;
-}
+} */
 
 /* AboutMe */
 
-.about-me-container {
+/* .about-me-container {
   height: 90%;
   width: 90%;
   color: white;
@@ -219,11 +219,11 @@ body {
   object-fit: cover;
   border-radius: 20px;
   margin: auto 20px;
-}
+} */
 
 /* Contact */
 
-.contact-container {
+/* .contact-container {
   height: 90%;
   width: 90%;
   color: white;
@@ -257,4 +257,4 @@ body {
 
 .contact-link {
   margin: auto 10px;
-}
+} */
