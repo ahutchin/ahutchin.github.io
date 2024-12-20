@@ -1,5 +1,6 @@
 import React from "react";
 import AuthButton from "../components/authButton";
+import CurrentlyPlaying from "../components/currentlyPlaying";
 
 const More = () => {
   return (
@@ -7,6 +8,7 @@ const More = () => {
       <h1>More</h1>
       <p>Page for sandboxing with local back-end</p>
       <AuthButton title={"SPOTIFY LOGIN"} endpoint={"/login"} />
+      <CurrentlyPlaying />
     </div>
   );
 };
