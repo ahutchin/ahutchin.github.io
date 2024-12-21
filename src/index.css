@@ -1,11 +1,11 @@
 /* Root */
-:root {
+html.light {
   --primary-color: white;
   --primary-text-color: black;
   --primary-border-color: rgba(0, 0, 0, 0.7);
 }
 
-body.dark-mode {
+html.dark {
   --primary-color: #333;
   --primary-text-color: white;
   --primary-border-color: rgba(255, 255, 255, 0.5);
